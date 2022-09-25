@@ -1,0 +1,40 @@
+.owl-carousel .card
+{
+   margin-inline-end: 20px;
+  background-color: rgb(141, 138, 138);
+   margin:10px 10px ;
+   border:0px;
+}
+
+.owl-carousel .card .heading h1
+{
+ font-size: 17px;
+ padding: 10px 10px;
+ font-weight: 700;
+ text-transform: capitalize;
+color: white;
+}
+.owl-carousel .card .heading h1 span
+{
+ font-size: 12px;
+text-transform: capitalize;
+}
+.owl-carousel .card .heading p
+{
+ font-size: 13px;
+ padding: 0px 10px;
+ text-transform: capitalize;
+ color: white;
+}
+.owl-carousel .card .icons
+{
+display: flex;
+align-items: center;
+}
+.owl-carousel .card .icons img
+{
+width:20px;
+padding: 0px 0px 10px 0px;
+object-fit: contain;
+filter: invert(95%) sepia(100%) saturate(0%) hue-rotate(220deg) brightness(103%) contrast(104%)
+}
